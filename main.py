@@ -1,8 +1,8 @@
-from ventana import *
+from Ventana import *
 def main():
     root = Tk()
     root.wm_title('Prueba Técnica ROCKET  ERP')
-    app = ventana(root)
+    app = Ventana(root)
     app.mainloop()
 
 if __name__ == '__main__':
